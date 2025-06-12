@@ -1,14 +1,28 @@
-# smart-camera-filter
-Real-time face detection and background blur using Python, OpenCV, and MediaPipe
-**Goal**: Detect face and blur the rest of the image — similar to Zoom or Teams background blur.
+# Smart Camera Filter 🎥🧠
 
-## ✅ Features
-- Real-time face detection
-- Blurs background using OpenCV
-- Works with webcam
+Real-time webcam filter using **Python**, **OpenCV**, and **MediaPipe** — automatically detects faces and blurs the background, like a smart Zoom filter.
 
-## 🧪 How to Run
+---
+
+## ✨ Features
+
+- 🔍 Real-time **face detection** using AI (MediaPipe)
+- 🎞️ Background is **blurred** to focus on the person
+- 💻 Runs locally with **webcam input**
+- 🪶 Lightweight and easy to customize
+
+---
+
+## 🚀 Getting Started
+
+### 🧰 Requirements
+
+- Python 3.10
+- OpenCV
+- MediaPipe
+- NumPy
+
+### 📦 Install Dependencies
 
 ```bash
 pip install opencv-python mediapipe numpy
-python main.py
